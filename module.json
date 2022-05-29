@@ -1,0 +1,42 @@
+{
+  "name": "name",
+  "title": "title",
+  "description": "desc",
+  "version": "0.1",
+  "author": "theripper93",
+  "authors": [
+      {
+          "name": "theripper93",
+          "email": "tsplab@gmail.com",
+          "url": "https://www.patreon.com/theripper93"
+      }
+  ],
+  "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "languages/en.json"
+      }
+  ],
+  "scripts": [
+      "./scripts/main.js",
+      "./scripts/config.js",
+      "./scripts/module.js"
+  ],
+  "styles": [
+      "./styles/module.css"
+  ],
+  "packs": [
+  ],
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "socket":true,
+  "dependencies": [
+    {
+        "name": "lib-wrapper"
+    }
+  ]
+}
