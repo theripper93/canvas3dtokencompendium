@@ -9,8 +9,4 @@ A lot of the models are from mz4250 (https://www.patreon.com/mz4250) Show him so
 
 # License
 
-You are allowed to modify, share and redistribute these assets as long as no profit is involved (no commercial use) and this text is included.
-
-These models are provided "as is" and may not be sold for private use. All models herein are made by mz4250 and other talented artists. You can view their patron page for more models.
-
-“3D Canvas Token Collection is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.”
+These models are provided "as is" and may not be sold for private use. All models herein are made by talented artists provided under GPL
