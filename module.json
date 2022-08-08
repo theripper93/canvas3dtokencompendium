@@ -12,6 +12,8 @@
       }
   ],
   "url": "https://theripper93.com/",
+  "minimumCoreVersion": "0",
+  "compatibleCoreVersion": "9",
   "manifest": "",
   "download": ""
 }
