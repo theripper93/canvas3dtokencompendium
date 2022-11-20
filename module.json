@@ -13,9 +13,9 @@
   "url": "https://theripper93.com/",
   "id": "canvas3dtokencompendium",
   "compatibility": {
-    "minimum": "0",
+    "minimum": "9",
     "verified": "10"
   },
   "name": "canvas3dtokencompendium",
-  "minimumCoreVersion": "0"
+  "minimumCoreVersion": "9"
 }
