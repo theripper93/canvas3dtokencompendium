@@ -1,19 +1,23 @@
 {
-  "name": "canvas3dtokencompendium",
   "title": "3D Canvas Token Collection",
   "description": "A Collection of 3D Miniatures ready to use in 3D Canvas - To get 3D Canvas visit my website (https://theripper93.com/). You can freely use this minis in any other software that supports the same format.",
   "version": "0.1",
-  "author": "theripper93",
   "authors": [
-      {
-          "name": "theripper93",
-          "email": "tsplab@gmail.com",
-          "url": "https://www.patreon.com/theripper93"
-      }
+    {
+      "name": "theripper93",
+      "email": "tsplab@gmail.com",
+      "url": "https://www.patreon.com/theripper93",
+      "flags": {}
+    }
   ],
-  "url": "https://theripper93.com/",
-  "minimumCoreVersion": "0",
-  "compatibleCoreVersion": "9",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/theripper93/canvas3dtokencompendium",
+  "manifest": "https://github.com/theripper93/canvas3dtokencompendium/releases/latest/download/module.json",
+  "download": "https://github.com/theripper93/canvas3dtokencompendium/releases/latest/download/module.zip",
+  "id": "canvas3dtokencompendium",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "name": "canvas3dtokencompendium",
+  "minimumCoreVersion": "9"
 }
