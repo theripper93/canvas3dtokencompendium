@@ -16,3 +16,5 @@ The models in the _Colorized folder are also by mz4250 and painted by Jerbo from
 These models are provided "as is" and may not be sold for private use. All models herein are made by talented artists provided under GPL
 
 “3D Canvas Token Collection is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.”
+
+Minis inside the `Paizo` folder and subfolders are licensed under the [Paizo fan content policy](https://paizo.com/community/communityuse#:~:text=Don't%20do%20anything%20that%20might%20hurt%20or%20damage%20Paizo.&text=You%20agree%20to%20not%20use,use%20would%20irreparably%20harm%20Paizo.)
