@@ -8,6 +8,10 @@ def get_latest_files(folder_path):
     for root, dirs, files in os.walk(folder_path):
         for file_name in files:
             if file_name.lower().endswith('.webp'):  # Check for files with the .webp extension
+                # If the file includes "topdown" in its name, ignore it
+                if 'topdown' in file_name.lower():
+                    continue
+                
                 file_path = os.path.join(root, file_name)
                 file_stat = os.stat(file_path)
                 creation_time = file_stat.st_ctime
