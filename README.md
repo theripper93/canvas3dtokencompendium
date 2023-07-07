@@ -1,9 +1,8 @@
 # 3D Canvas Token Collection
 A Collection of 3D Miniatures ready to use in 3D Canvas
 
-Manifest Install: https://github.com/theripper93/canvas3dtokencompendium/releases/latest/download/module.json
+![image](https://github.com/theripper93/canvas3dtokencompendium/assets/1346839/c96f8b2d-781b-4dcf-9a90-d0f9d4ec3808)
 
-Forge Users: https://forge-vtt.com/bazaar#package=canvas3dtokencompendium
 
 # Credits
 
