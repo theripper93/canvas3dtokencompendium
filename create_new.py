@@ -1,6 +1,34 @@
 import os
 import json
 import datetime
+import math
+from PIL import Image
+
+def merge_images(images, output_path):
+    total_images = len(images)
+    thumbnail_size = (200, 200)  # Adjust the size of each thumbnail as per your needs
+
+    # Calculate the number of rows and columns for a square aspect ratio
+    sqrt_total = math.sqrt(total_images)
+    rows = math.ceil(sqrt_total)
+    cols = math.ceil(total_images / rows)
+
+    album_width = thumbnail_size[0] * cols
+    album_height = thumbnail_size[1] * rows
+    album_image = Image.new('RGB', (album_width, album_height))
+
+    for i, image_path in enumerate(images):
+        image = Image.open(image_path)
+        image.thumbnail(thumbnail_size)
+        row = i // cols
+        col = i % cols
+        x = col * thumbnail_size[0]
+        y = row * thumbnail_size[1]
+        album_image.paste(image, (x, y))
+
+    album_image.save(output_path)
+
+image_paths = []
 
 def get_latest_files(folder_path):
     file_dict = {}
@@ -21,6 +49,7 @@ def get_latest_files(folder_path):
 
                 # Ignore files created more than 2 weeks ago
                 if datetime.datetime.fromtimestamp(creation_time) >= two_weeks_ago:
+                    image_paths.append(file_path)
                     file_dict[creation_time] = os.path.splitext(file_name)[0]  # Store only the filename without extension
 
     return file_dict.values()
@@ -40,3 +69,7 @@ json_file_path = './miniatures/_Colorized/new.json'
 
 # Save the file list to a JSON file
 save_files_to_json(latest_files, json_file_path)
+
+output_path = 'latest.jpg'
+
+merge_images(image_paths, output_path)
