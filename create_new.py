@@ -6,7 +6,7 @@ from PIL import Image
 
 def merge_images(images, output_path):
     total_images = len(images)
-    thumbnail_size = (200, 200)  # Adjust the size of each thumbnail as per your needs
+    thumbnail_size = (400, 400)  # Adjust the size of each thumbnail as per your needs
 
     # Calculate the number of rows and columns for a square aspect ratio
     sqrt_total = math.sqrt(total_images)
