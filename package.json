@@ -4,7 +4,8 @@
   "description": "A Collection of 3D Miniatures ready to use in 3D Canvas",
   "main": "index.js",
   "scripts": {
-    "index-new": "python create_new.py"
+    "index-new": "python create_new.py",
+    "index-colorized": "python miniatures/_Colorized/create_index.py"
   },
   "repository": {
     "type": "git",
